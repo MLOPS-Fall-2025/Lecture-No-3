@@ -1,9 +1,3 @@
-Got it ✅ You want me to extend **Lecture 2** into a **Lecture 3 style tutorial**, where instead of just running CI pipelines on GitHub, the students also learn how to **deploy their app to Azure** using GitHub Actions. Then, I’ll also design **3–4 student exercises** around this flow.
-
-Here’s a structured tutorial:
-
----
-
 # Lecture-No-3
 
 **Tutorial: Deployment to Azure with GitHub Actions**
