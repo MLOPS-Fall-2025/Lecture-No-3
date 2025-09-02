@@ -30,7 +30,7 @@ We’ll use **Azure Web App for Linux** to host our Flask app. GitHub Actions wi
    * Runtime stack: **Python 3.10**
    * Region: choose nearest region.
    * Operating System: Linux.
-3. Note the **App Name** (e.g., `flask-demo-12345`).
+3. Note the **App Name** (e.g., `mlops-calc-fall2025`).
 
 ---
 
@@ -103,7 +103,7 @@ jobs:
 1. Push changes to `main`.
 2. GitHub Actions will run tests.
 3. If successful, it will deploy the app to Azure.
-4. Open `https://flask-demo-12345.azurewebsites.net/` to confirm deployment.
+4. Open `https://mlops-calc-fall2025.azurewebsites.net/` to confirm deployment.
 
 ---
 
@@ -148,7 +148,3 @@ jobs:
 * Azure Web Apps make Flask deployment simple using publish profiles.
 * Failing tests or linting errors **stop deployment automatically**.
 * Continuous Deployment ensures your `main` branch is always live on the cloud.
-
----
-
-Would you like me to also prepare a **step-by-step student handout (with screenshots of Azure portal)** so it’s easier for them to follow visually, or keep it as a text-only tutorial like this?
